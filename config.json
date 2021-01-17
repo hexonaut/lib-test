@@ -1,0 +1,47 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "src/LibTest.t.sol": {
+      "urls": [
+        "src/LibTest.t.sol"
+      ]
+    },
+    "src/LibTest.sol": {
+      "urls": [
+        "src/LibTest.sol"
+      ]
+    },
+    "ds-test/test.sol": {
+      "urls": [
+        "lib/ds-test/src/test.sol"
+      ]
+    }
+  },
+  "settings": {
+    "libraries": {
+      "src/LibTest.sol": {
+        "TestLibrary": "0x86214f65c5A3B9200a89bBf354DBc5B98fFF6874"
+      }
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "metadata",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi",
+          "storageLayout",
+          "evm.bytecode.sourceMap",
+          "evm.bytecode.linkReferences",
+          "evm.bytecode.generatedSources",
+          "evm.deployedBytecode.sourceMap",
+          "evm.deployedBytecode.linkReferences",
+          "evm.deployedBytecode.generatedSources"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    }
+  }
+}

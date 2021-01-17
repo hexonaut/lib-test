@@ -1,4 +1,4 @@
-all    :; dapp build
+all    :; DAPP_STANDARD_JSON="config.json" dapp build
 clean  :; dapp clean
 test   :; dapp test
-deploy :; dapp create LibTest
+deploy :; ./test.sh
